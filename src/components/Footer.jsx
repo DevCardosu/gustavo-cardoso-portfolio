@@ -3,7 +3,7 @@ import '../styles.css/Footer.css'
 
 export default function Footer() {
     return (
-        <footer className="main-footer">
+        <footer id="contato" className="main-footer">
     <div className="footer-content">
         <p>© 2026 Gustavo João Cardoso. Todos os direitos reservados.</p>
         <p>
