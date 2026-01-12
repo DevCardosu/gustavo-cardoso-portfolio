@@ -1,0 +1,86 @@
+.skills-section {
+    background-color: #050510;
+    padding: 100px 10%;
+    color: white;
+    text-align: center;
+}
+
+.quote-container h2 {
+    color: #54ac59;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 1.1rem;
+    margin-bottom: 70px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 850px;
+    margin: 0 auto 100px auto;
+    text-align: left;
+}
+
+.skills-group {
+    border-left: 4px solid #54ac59;
+    padding-left: 25px;
+}
+
+.group-title {
+    color: #54ac59;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.skills-group p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+}
+
+.contact-cta p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.btn-whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    padding: 18px 45px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(37, 211, 102, 0.4);
+}
+
+.main-footer {
+    background-color: #050510;
+    padding: 40px 10%;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.main-footer strong {
+    color: #54ac59;
+}
+
+@media (max-width: 768px) {
+    .skills-section { padding: 60px 5%; }
+    .quote-container h2 { font-size: 1.8rem; }
+    .btn-whatsapp { width: 100%; padding: 15px; }
+}
